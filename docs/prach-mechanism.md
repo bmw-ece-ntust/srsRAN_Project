@@ -1,4 +1,4 @@
-# Study Notes by Rossi Putri Rusliadi
+# Study Notes
 
 # Overview
 
