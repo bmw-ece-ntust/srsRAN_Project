@@ -120,3 +120,31 @@ nanoseconds.
 
 ## Create the message sequence chart (MSC) to map each function in the codeflow for RACH mechanism
 ![Editor _ Mermaid Chart-2025-04-19-094652](https://github.com/user-attachments/assets/a9f82858-2db4-46c1-8397-9ce14599bdb8)
+Random Access Preamble Transmission (Msg1)
+### Code Flow for the MSC
+Code Reference:
+rach_indication_pdu_preamble (File: include/srsran/fapi/messages/rach_indication.h)
+Handles details like preamble_index, preamble_pwr, timing_advance_offset, and SNR.
+MSC Representation:
+UE sends a preamble to the gNB.
+Random Access Response (Msg2)
+
+Code Reference:
+mac_cell_rach_handler_impl::handle_rach_indication (File: lib/mac/mac_sched/mac_rach_handler.cpp)
+Responds to detected RACH preambles and forwards them to the scheduler.
+MSC Representation:
+gNB sends a response (RAR) to the UE.
+UE Identification and Msg3
+
+Code Reference:
+ra_scheduler::handle_rach_indication (File: lib/scheduler/common_scheduling/ra_scheduler.h)
+Manages scheduling RA responses and Msg3 grants.
+MSC Representation:
+UE sends its unique identifier (contention-based or contention-free).
+Contention Resolution (Msg4)
+
+Code Reference:
+mac_cell_rach_handler::handle_rach_indication (File: include/srsran/mac/mac_cell_rach_handler.h)
+Resolves contention by matching identifiers and responding appropriately.
+MSC Representation:
+gNB resolves contention and finalizes the connection.
