@@ -118,6 +118,25 @@ nanoseconds.
 
    - [Message Definitions](https://github.com/srsran/srsRAN_Project/blob/main/include/srsran/fapi/messages/rach_indication.h)
 
+### srsRAN (crash course)
+srsRAN (was srsLTE) is an open-source SDR (Software Defined Radio) stack for LTE/5G. SDR is like the signal path (in real world: airwaves)
+super dummily put, srsRAN enables:
+- a gNB to act like a real tower
+- a UE to act like a phone
+- a core (ex: 5G) to connect all to the Internet
+### Msg1 to Msg 4
+#### Msg 1
+- The phone (UE) sends a RACH preamble on the PRACH. (((kinda like knocking)))
+- It's anonymous — no identity yet.
+- It chooses a random preamble and sends it on an allowed time/frequency.
+#### Msg 2
+- The gNB hears the preamble and sends a Random Access Response (RAR).
+- This step helps fix timing and allows the UE to prepare for the next message.
+#### Msg 3
+- The UE sends an RRC Request or Scheduling Request using the slot it got in Msg2. Shares its identity (like IMSI or Temporary ID).
+#### Msg 4
+- The gNB responds with Msg4: Confirms the UE’s identity, welcomes, might assign a C-RNTI (unique ID for future messages)
+
 ## Create the message sequence chart (MSC) to map each function in the codeflow for RACH mechanism
 ![Editor _ Mermaid Chart-2025-04-19-094652](https://github.com/user-attachments/assets/a9f82858-2db4-46c1-8397-9ce14599bdb8)
 Random Access Preamble Transmission (Msg1)
