@@ -155,7 +155,7 @@ super dummily put, srsRAN enables:
    - gNB sends a response (RAR) to the UE.
 3. UE Identification and Msg3
 - Code Reference:
-   - ra_scheduler::handle_rach_indication (File: lib/scheduler/common_scheduling/ra_scheduler.h)
+   - `ra_scheduler::handle_rach_indication` (File: `lib/scheduler/common_scheduling/ra_scheduler.h`)
    - Manages scheduling RA responses and Msg3 grants.
 - MSC Representation:
    - UE sends its unique identifier (contention-based or contention-free).
