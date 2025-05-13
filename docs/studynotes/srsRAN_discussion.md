@@ -1,14 +1,28 @@
 ## Install the latest version srsRAN from the github
 **1. Install Dependencies and all the library to support the srsRAN** 
 
+``sudo apt install cmake g++ libsctp-dev libsctp1 \
+libboost-all-dev libfftw3-dev libmbedtls-dev \
+libconfig++-dev libuhd-dev libpcsclite-dev``
+
 ![image](https://github.com/user-attachments/assets/a703ef96-3438-4a6f-9500-8a36c8909297)
 
  **2. Gitclone**
+
+ ``git clone https://github.com/srsRAN/srsRAN_Project.git``
 
 ![image](https://github.com/user-attachments/assets/b314a7be-c86c-46f5-ad05-da31b7fc761c)
 
 
  **3. Download and build srsRAN Project (we try the vanilla one)**
+
+``
+mkdir build
+cd build
+cmake ../
+make -j$(nproc)
+make test -j$(nproc)
+``
 
 ![image](https://github.com/user-attachments/assets/1dbfa33d-b4ef-4e71-a2ff-0162342c08c0)
 
@@ -17,6 +31,8 @@
 ![image](https://github.com/user-attachments/assets/ccf9ac1c-c38a-4372-86b5-797f2756a08c)
 
  **4. Install the srsRAN Project gNB**
+
+ ``sudo make install``
 
 ![image](https://github.com/user-attachments/assets/fb41cac9-71e5-490e-be2d-51d68ac820f5)
 
