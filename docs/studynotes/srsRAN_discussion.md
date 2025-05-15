@@ -39,6 +39,12 @@ make test -j$(nproc)
 ![image](https://github.com/user-attachments/assets/a47f5eed-606e-464a-bac2-216361c151b8)
 
 
+**5. Execute**
+
+![image](https://github.com/user-attachments/assets/ace86e9f-0b60-4129-b30a-f6d6098a2ce2)
+
+
+
 
 
 ## Minimum requirements to run srsRAN
