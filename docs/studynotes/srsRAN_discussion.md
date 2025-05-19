@@ -41,7 +41,13 @@ make test -j$(nproc)
 
 **5. Execute**
 
+We still cant fully run because theres an error on the amf
 ![image](https://github.com/user-attachments/assets/ace86e9f-0b60-4129-b30a-f6d6098a2ce2)
+
+
+**6. Try to fix problem by install the open5gs and check for the amf status
+![image](https://github.com/user-attachments/assets/df8acefc-d7e1-422e-8019-decf0974d578)
+![image](https://github.com/user-attachments/assets/ccc0c04e-0ed7-42d4-9ce7-c46da6e9cc57)
 
 
 
