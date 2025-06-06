@@ -74,6 +74,7 @@
 ---
 ## 2. SMO Architecture Components
 ![smo graph](https://github.com/user-attachments/assets/226ed220-a29f-4a26-887b-ca3ff9a64b9a)
+
 ---
 ### 2.1. Key Interfaces
 | **Interface** | **Connects To** | **Purpose** |
