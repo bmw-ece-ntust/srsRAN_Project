@@ -123,3 +123,6 @@
 2. Provides framework for AI-driven optimization
 3. Critical for realizing Open RAN benefits
 4. Implementation requires new operational paradigms
+
+# PPT using Marp
+📂 [Download the SMO Presentation (PPTX)](https://docs.google.com/presentation/d/1UwIuN9jz1NNf2ofbKjFLgRm_c0V0rCVz/edit?usp=sharing&ouid=113412523875666321977&rtpof=true&sd=true)
