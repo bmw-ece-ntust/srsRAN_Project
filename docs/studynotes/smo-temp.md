@@ -1,10 +1,21 @@
+---
+marp: true
+theme: gaia
+paginate: true
+style: |
+  section {
+    justify-content: flex-start;
+    padding-top: 40px;
+  }
+---
 # Summary: SMO - Enabling Intelligent RAN Operations
 - **Source:** [Ericsson White Paper](https://www.ericsson.com/en/reports-and-papers/white-papers/smo-enabling-intelligent-ran-operations)
 - **Date:** 5 June 2025
+---
 ## 1. Introduction to SMO
-**Definition**: Service Management and Orchestration (SMO) is a framework for intelligent RAN operations
-**Purpose**: Enables automation and optimization of multi-vendor Open RAN networks. Enhances customer experience and lowers costs.
-**Standardization**: Part of O-RAN Alliance architecture specifications
+1. **Definition**: Service Management and Orchestration (SMO) is a framework for intelligent RAN operations
+2. **Purpose**: Enables automation and optimization of multi-vendor Open RAN networks. Enhances customer experience and lowers costs.
+3. **Standardization**: Part of O-RAN Alliance architecture specifications
 ---
 ## 2. Key Components of SMO
 ### 2.1. Functional Architecture
@@ -65,9 +76,9 @@
 - **Source:** [Techplayon Article](https://www.techplayon.com/open-ran-service-management-and-orchestration-smo/)
 - **Date:** 6 June 2025
 ## 1. Introduction to SMO
-**Definition**: "Brain" of RAN Operations
-**Purpose**: Service management, network orchestration, automation.
-**Position in Architecture**: Sits above RAN Controllers (RICs), connects to OSS/BSS systems
+1. **Definition**: "Brain" of RAN Operations
+2. **Purpose**: Service management, network orchestration, automation.
+3. **Position in Architecture**: Sits above RAN Controllers (RICs), connects to OSS/BSS systems
 ---
 ## 2. SMO Architecture Components
 ```mermaid
