@@ -1,11 +1,10 @@
 ---
 marp: true
-theme: default
 paginate: true
 style: |
   section {
     justify-content: flex-start;
-    padding-top: 40px;
+    padding-top: 20px;
   }
 ---
 # Summary: SMO - Enabling Intelligent RAN Operations
