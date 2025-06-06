@@ -1,12 +1,3 @@
----
-marp: true
-paginate: true
-style: |
-  section {
-    justify-content: flex-start;
-    padding-top: 20px;
-  }
----
 # Summary: SMO - Enabling Intelligent RAN Operations
 - **Source:** [Ericsson White Paper](https://www.ericsson.com/en/reports-and-papers/white-papers/smo-enabling-intelligent-ran-operations)
 - **Date:** 5 June 2025
