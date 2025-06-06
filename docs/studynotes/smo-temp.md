@@ -15,6 +15,7 @@
   - Service management
   - Network orchestration
   - Automation
+---
 ### 2.2. Interfaces
 - **O1 Interface**: For management and orchestration
 - **A1 Interface**: For policy management
@@ -65,20 +66,15 @@
 # Summary: Open RAN Service Management and Orchestration (SMO)
 - **Source:** [Techplayon Article](https://www.techplayon.com/open-ran-service-management-and-orchestration-smo/)
 - **Date:** 6 June 2025
+---
 ## 1. Introduction to SMO
 1. **Definition**: "Brain" of RAN Operations
 2. **Purpose**: Service management, network orchestration, automation.
 3. **Position in Architecture**: Sits above RAN Controllers (RICs), connects to OSS/BSS systems
 ---
 ## 2. SMO Architecture Components
-```mermaid
-graph TD
-  SMO-->Non-RT_RIC
-  SMO-->OSS/BSS
-  SMO-->Near-RT_RIC
-  Non-RT_RIC-->A1_Interface
-  Near-RT_RIC-->E2_Interface
-```
+![smo graph](https://github.com/user-attachments/assets/226ed220-a29f-4a26-887b-ca3ff9a64b9a)
+---
 ### 2.1. Key Interfaces
 | **Interface** | **Connects To** | **Purpose** |
 |---------------|-----------------|-------------|
@@ -95,6 +91,7 @@ graph TD
   - Traffic load balancing
   - Energy savings
   - Mobility optimization
+---
 ### 3.3. Automation
 - Closed-loop operations
 - Intent-based management
